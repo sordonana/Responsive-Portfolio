@@ -1,0 +1,313 @@
+h1 h2 h3{
+    font-family:'Georgia', Times, Times New Roman, serif;
+
+}
+
+a p div {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.mainContainer{
+    width: 960px;
+    height: auto;
+
+}
+
+.upperContainer{
+    background: #fff;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+
+
+}
+header{
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-style: solid;
+    border-color: #ccc;
+    margin-left: 0%;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+
+}
+
+.nombre{
+    width: 200px;
+    height: 100px;
+    background-color: #4aaaa5;
+    font-size: 23px;
+    color: white;
+    padding: 1px;
+    margin-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+::placeholder{
+    opacity: .5;
+
+}
+
+.nombre h1{
+    padding-top: 17%;
+    text-decoration: none;
+    
+                
+}
+
+.names{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    
+
+}
+
+.names:hover{
+    color: yellow;
+
+}
+
+.menuUL{
+    display: inline-flex;
+    list-style: none;
+    position: fixed;
+    top: 29px;
+    left: 1000px;
+
+
+}
+
+.lista1,.lista2,.lista3{
+    margin: 5%;
+
+}
+
+.lista3{
+    position: relative;
+    top: 0px;
+    right: 43px;
+    margin-right: -35%;
+    opacity: .6;
+    transition: .5s;
+
+    
+
+}
+
+.lista2{
+    position: relative;
+    top: 0px;
+    right: -39px;
+    margin-right: -35%;
+    opacity: .6;
+    transition: .5s;
+
+
+
+
+}
+
+.lista1{
+    position: relative;
+    top: 0px;
+    right: 100px;
+    margin-right: -35%;
+    opacity: .6;
+    transition: .5s;
+
+
+
+}
+
+.lista1:hover, .lista2:hover, .lista3:hover{
+    font-size: 110%;
+
+
+}
+
+a {
+   text-decoration: none;
+   color: #777777;
+}
+
+.aboutMe{
+    width: 960px;
+    height: auto;
+    margin-bottom: 88px;
+    background-color: #fff;
+    margin-left: 22%;
+    margin-top: 8%;
+    display: inline-block;
+    text-align: start;
+}
+
+.contInter2{
+    width: 565px;
+    height: auto;
+    margin-left: 17px;
+    margin-bottom: 25px;
+
+
+}
+
+.contInter{
+    width: 900px;
+    height: auto;
+    margin-left: 17px;
+    margin-bottom: 25px;
+
+
+}
+
+footer{
+    position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-size: 10px;
+	color: #cccccc;
+	background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    margin-top: 20px;
+
+
+}
+
+.aboutMe h1{
+    color: #4aaaa5;
+    margin-left: 3%;
+    padding-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+
+
+
+}
+
+.portfolio-space h1 {
+    color: #4aaaa5;
+    margin-left: 3%;
+    padding-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 26px;
+
+
+}
+
+hr{
+    width: 100%;
+    color: rgba(153, 150, 150, 0.726);
+    opacity: .7;
+    margin-bottom: 20px;
+    border-style: solid;
+    margin-top: 20px;
+
+
+}
+
+.imgMe{
+
+    margin-left: 0%;
+    float: left;
+    padding: 0 1em 1em 0;
+
+
+
+}
+
+.textMe{
+    float: right;
+    display: contents;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 3%;
+    color: #666666a1;
+
+}
+
+/*Finish About Me*/
+
+/*Starts Contact*/
+
+.inText{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+textarea{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.boton{
+ color: #fff;
+ width: 80px;
+ height: 30px;
+ background-color: #4aaaa5;
+ margin-top: 3px;
+}
+
+/*portfolio*/
+
+.items{
+    display: inline-block;
+    position: relative;
+    MARGIN-RIGHT: 50PX;
+
+
+
+}
+
+.item-name{
+    position: relative;
+	top: -100px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+    color: #ffffff;
+    font-size: 15px;
+    top: -57px;
+
+
+	
+
+
+
+}
+
+.portimg{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.portfolio-space{
+    width: 960px;
+    height: 806px;
+    margin-bottom: 88px;
+    background-color: #fff;
+    margin-left: 22%;
+    margin-top: 8%;
+    display: inline-block;
+    text-align: start;
+
+}
+
+
+
+
+
