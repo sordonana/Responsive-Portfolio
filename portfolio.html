@@ -1,115 +1,96 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Página de Santiago Ordoñana Aguilar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles2.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Portfolio</title>
+  	
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
-<body style="background:url(assets/images/full-bloom.png)">
+<body style="background-image: url(assets/images/full-bloom.png)">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Santiago Ordoñana</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <style>
-            * {
-                padding: 0;
-                margin: 0;
+<!-- main navigation panels start here -->
+  <div id="main-container" class="container">
+    <section class="main-section">
+        <h1 class="aboutMe">Portfolio</h1>
+        <div class="row">
+          
+        <div class="col-sm-9">
+            <div id="portfolio_pic_block">
+         		<div class="portfolio_pic">
+            		<a href="#"><div class="portfolio_pic_text_block">Hangman</div></a>
+            		<img src="assets/images/Hangman.jpg" alt="Hangman" width=135px height=90px>
+          		</div>
+          	
+          		<div class="portfolio_pic">
+            		<a href="#"><div class="portfolio_pic_text_block">RPG Game</div></a>
+            		<img src="assets/images/rpgGame.png" alt="RPG Game" width=135px height=90px>
+          		</div>
+          	
+          		<div class="portfolio_pic">
+            		<a href="#"><div class="portfolio_pic_text_block" width=270px height=180px>Trivia Game</div></a>
+            		<img src="assets/images/triviaGame.jpg" alt="Trivia Game" width=135px height=90px>
+          		</div>
+          	
+          		<div class="portfolio_pic">
+            		<a href="#"><div class="portfolio_pic_text_block">Rutgers Info Widget</div></a>
+            		<img src="assets/images/infoWidget.jpg" alt="Rutgers Info Widget" width=135px height=90px>
+          		</div>
+
+          		<div class="portfolio_pic">
+            		<a href="#"><div class="portfolio_pic_text_block">Rock Paper Scissors</div></a>
+            		<img src="assets/images/rockPaper.jpg" alt="Rock Paper Scissors" width=135px height=90px>
+              </div>
+              
+            </div>
+           
+            </div>
+            <div class="col-sm-3">	
+                <ul class="list-group">
+                    <li class="list-group-item">CONTACT ME</li>
+                    <li class="list-group-item"><img class="imgfb" src="https://www.shareicon.net/data/256x256/2017/06/28/888039_logo_512x512.png" alt="FB"><a href="https://www.facebook.com/sordonana" target="_blank">Facebook Profile</a></li>
+                    <li class="list-group-item"><img class="imgfb" src="http://www.myiconfinder.com/uploads/iconsets/256-256-a8ec7260e846060d86380579bbcd3285.png" alt="FB"><a href="https://twitter.com/sordonana" target="_blank"> Twitter Page</a></li>
+                    <li class="list-group-item"><img class="imgfb" src="https://www.shareicon.net/data/256x256/2017/06/30/888066_logo_512x512.png" alt="FB"><a href="https://www.linkedin.com/in/santiago-ordo%C3%B1ana-aguilar-0650b737/" target="_blank"> Linkedin Profile</a></li>
+                  </ul>
+                    </div>
+            </div>
+
+              
+   
+          
+          
+    </section>
+
     
-            }    
-        </style>
-
-    <div class="mainContainer">
-        <header>
-            <div class="upperCointainer">
-                <div class="nombre">
-                    <h1> <a class="names" href="index.html">Santiago Ordoñana</a></h1>
-                </div>
-                <div class "navegacion">
-                    <ul class="menuUL">
-                        <li class="lista1">
-                            <a class="links" href="index.html">       About</a>
-                        </li>
-                        <li class="lista2">
-                            <a class="links" href="contact.html">Contact</a>
-                        </li>
-                        <li class="lista3">
-                            <a class="links" href="portfolio.html">|        Portfolio         |</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </header>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-        <div class="portfolio-space">
-            <div class="contInter2">
-                    <h1>Portfolio</h1>
-                    <hr class="separator">
-
-			<ul class="portfolio">
-				<li class="items">
-					<a href="#">
-						<img src="assets/images/Hangman.jpg" alt="Hangman" class="portimg">
-						<h2 class="item-name">Hangman</h2>
-					</a>
-                </li>
-                <li class="items">
-					<a href="#">
-						<img src="assets/images/rpgGame.png" alt="RPG-Game" class="portimg">
-						<h2 class="item-name">RPG Game</h2>
-					</a>
-                </li>
-                <li class="items">
-					<a href="#">
-						<img src="assets/images/triviaGame.jpg" alt="Trivia Game" class="portimg">
-						<h2 class="item-name">Trivia Game</h2>
-					</a>
-                </li>
-                <li class="items">
-					<a href="#">
-						<img src="assets/images/infoWidget.jpg" alt="Rutgers Info Widget" class="portimg">
-						<h2 class="item-name">Rutgers Info Widget</h2>
-					</a>
-                </li>
-                <li class="items">
-					<a href="#">
-						<img src="assets/images/rockPaper.jpg" alt="Rock Paper Scissors" class="portimg">
-						<h2 class="item-name">Rock Paper Scissors</h2>
-					</a>
-                </li>
-                </ul>
-                
-
-            
-            </div>
-            </div>
-            <br>
-            <br>
-            <br>
 
 
 
 
-
+  <footer>
+    <div class="container">
         <footer>
 
             &copy; Copyright 2018 Santiago Ordoñana Aguilar
-
+  
         </footer>
-
-
-
-
-
     </div>
+  </footer>
 </body>
-
 </html>

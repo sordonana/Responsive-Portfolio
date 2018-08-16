@@ -1,94 +1,58 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Página de Santiago Ordoñana Aguilar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles2.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body style="background:url(assets/images/full-bloom.png)">
-
-    <style>
-            * {
-                padding: 0;
-                margin: 0;
-    
-            }    
-        </style>
-
-
-    <div class="mainContainer">
-        <header>
-            <div class="upperCointainer">
-                <div class="nombre">
-                    <h1> <a class="names" href="index.html">Santiago Ordoñana</a></h1>
-                                </div>
-                <div class="navegacion">
-                    <ul class="menuUL">
-                        <li class="lista1">
-                            <a class="links" href="index.html">About</a>
-                        </li>
-                        <li class="lista2">
-                            <a class="links" href="contact.html">Contact</a>
-                        </li>
-                        <li class="lista3">
-                            <a class="links" href="portfolio.html">|        Portfolio         |</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </header>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-        <div class="aboutMe">
-            <div class="contInter">
-                <h1>Contact</h1>
-                <hr class="separator">
-                <!---Aqui va a ir todo el código de la forma -->
-                <form action="#" class="contacto">
-                    
-                    <label for="name">Name</label>
-                    <input type="text" name="name" placeholder="Complete Name" class="inText">
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" placeholder="e-Mail" class="inText">
-                    <br>
-                    <label for="comments">Comments</label>
-                    <textarea rows="12" cols="40" name="comments" id="commentarios"></textarea>
-                    <br>
-                    <input type="submit" value="Submit" class="boton">
-
-                </form>
-
-        
-            </div>
-        </div>
-
-
-
-
-
-        <footer>
-
-            &copy; Copyright 2018 Santiago Ordoñana Aguilar
-
-        </footer>
-
-
-
-
-
+<body style="background-image: url(assets/images/full-bloom.png)">
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Santiago Ordoñana</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-</body>
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+    </section>
+   
+  </div>
+    <footer>
+      <div class="container">
+          <footer>
+
+              &copy; Copyright 2018 Santiago Ordoñana Aguilar
+    
+          </footer>
+      </div>
+    </footer>
+</body>
 </html>
